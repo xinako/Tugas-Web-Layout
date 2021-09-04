@@ -54,6 +54,12 @@ button {
   transition: all 0.3s ease 0s;
 }
 
+.logo {
+    float: left;
+    height: 500x;
+    width: 500px;
+}
+
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
