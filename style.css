@@ -1,9 +1,8 @@
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: white;
-} */
+}
 
 
 li, a,button {
@@ -18,7 +17,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 2%;
+  padding: 15px 2%;
   background-color: #24252a;
 }
 
@@ -56,15 +55,19 @@ button {
 .logo {
   margin-right: auto;
   float: left;
-  height: 75x;
-  width: 75px;
+  height: 100x;
+  width: 100px;
 }
 
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-.fa {
+.content {
+  text-align: center;
+}
+
+/* .fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -96,13 +99,85 @@ button:hover {
 .fa-instagram {
   background: #125688;
   color: white;
-}
+} */
 
 footer {
-  background-color: teal;
-  padding: 5px;
   text-align: center;
+  background-color: #111;
+  height: auto;
+  width: 100vw;
   color: white;
-  font-size: large;
   font-family: 'Lucida Sans';
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footcontent {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footcontent h3 {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.footcontent p {
+  font-size: 14px;
+  margin: 10px auto;
+  line-height: 28px;
+  max-width: 500px;
+}
+
+.akun {
+  margin: 1rem 0 1rem 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.akun li {
+  margin: 0 10px;
+}
+
+.akun a {
+  text-decoration: none;
+  color: white;
+}
+
+.akun a i {
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.akun a:hover i {
+  color: aqua;
+}
+
+.footcopy {
+  text-align: center;
+  padding-top: 20px 0;
+  width: 100vw;
+  background-color: black;
+}
+
+.footcopy p {
+  font-size: 14px;
+  text-transform: capitalize;
+  word-spacing: 2px;
+}
+
+.footcopy span {
+  font-weight: 200;
+  opacity: 0.3;
+  text-transform: uppercase;
 }
