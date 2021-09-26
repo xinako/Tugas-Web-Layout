@@ -21,6 +21,18 @@
           <!-- <li></li> -->
         </ul>
       </nav>
+      <button type="button" id="btn" class="search">Login</button>
+      <script src="sweetalert2.all.min.js"></script>
+      <script>
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', function(){
+          Swal.fire({
+            title: 'Welcome',
+            text: "Login Success",
+            icon: 'success'
+          })
+        })
+      </script>
       <input type="text" placeholder="Search" />
       <a href="#" class="cta"><button>Search</button></a>
       <!-- <img src="images/logo.png" alt="logo" class="logo" /> -->
