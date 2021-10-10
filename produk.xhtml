@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="logoDW1.png" type="image/x-icon" />
+    <title>Buyacar - Your Best Dealer</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="logoDW1.png" />
+      <nav>
+        <ul class="navbar">
+          <li><a href="home.xhtml">Home</a></li>
+          <li><a href="#" class="active">Produk Kami</a></li>
+          <li><a href="about.xhtml">Tentang Kami</a></li>
+          <li><a href="help.xhtml">Bantuan</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="btn" class="search">Login</button>
+      <script src="sweetalert2.all.min.js"></script>
+      <script>
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', function(){
+          Swal.fire({
+            title: 'Welcome',
+            text: "Login Success",
+            icon: 'success'
+          })
+        })
+      </script>
+      <input type="text" placeholder="Search" />
+      <a href="#" class="cta"><button>Search</button></a>
+    </header>
+    <div class="content">
+      <p> DAPATKAN MOBIL IMPIAN ANDA MELALUI BUYACAR </p>
+      <break/>
+      <h2> Recommended For You</h2>
+      <break/>
+      <h2> Latest New Car</h2>
+      <break/>
+      <h2> Used Car</h2>
+      <break/>
+      <h2> DISCOUNT</h2>
+    </div>
+    <footer>
+      <div class="footcontent">
+      <h3>Our social media</h3>
+      <ul class="akun">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+      </div>
+      <div class="footcopy">
+        <p>Copyleft &copy;2021 Kelompok Desain Web, Designed by <span>Xinako</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
