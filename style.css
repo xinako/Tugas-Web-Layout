@@ -4,9 +4,14 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 li,
 a,
 button {
+=======
+
+li, a,button {
+>>>>>>> 133263b0b39f93d2bcf5275d81ab595efe6738fb
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
@@ -65,6 +70,7 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
+<<<<<<< HEAD
 .content-about {
   position: relative;
   background-color: salmon;
@@ -91,6 +97,10 @@ button:hover {
   size: 90%;
   height: 458px;
   position: relative;
+=======
+.content {
+  text-align: center;
+>>>>>>> 133263b0b39f93d2bcf5275d81ab595efe6738fb
 }
 
 /* .fa {
